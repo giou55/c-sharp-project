@@ -1,0 +1,19 @@
+First, install .NET.
+Then confirm that dotnet is installed by checking the version:
+dotnet --version
+
+---------------------------------------------------------------------
+
+Create a new C# project and run the code:
+dotnet new console -o app
+cd app
+dotnet run
+
+---------------------------------------------------------------------
+
+To compile your code:
+dotnet build
+
+After that is done you will have an executable (exe or dll) in your /bin folder.
+
+---------------------------------------------------------------------
