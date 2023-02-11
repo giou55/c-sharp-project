@@ -1,5 +1,5 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using static App.Helper; // if we want to use the static members of a class 
+using Namespace1; // if we want to use the classes in a namespace
 
 namespace Application
 {
@@ -14,12 +14,19 @@ namespace Application
             };
 
             Dump(hero);
-        }
+            // {
+            //   "Name": "Tarodev",
+            //   "Damage": 420,
+            //   "Message": ""
+            // }
+            Dump("hello world".Split(" "));
+            // [
+            //   "hello",
+            //   "world"
+            // ]
 
-        private static void Dump(object o)
-        {
-            string json = JsonConvert.SerializeObject(o, Formatting.Indented);
-            Console.WriteLine(json);
+            var h = new MyClass();
+            h.SayHello();
         }
     }
 
