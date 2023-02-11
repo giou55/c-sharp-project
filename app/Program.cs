@@ -1,5 +1,6 @@
-﻿using static App.Helper; // if we want to use the static members of a class 
+﻿using System.Security.Cryptography.X509Certificates;
 using Namespace1; // if we want to use the classes in a namespace
+using static App.Helper; // if we want to use the static members of a class 
 
 namespace Application
 {
@@ -27,6 +28,12 @@ namespace Application
 
             var h = new MyClass();
             h.SayHello();
+
+            Dump(typeof(Program).Assembly.GetTypes()
+                .Where(x => x.Name.EndsWith("ero")));
+            // [
+            //     "Application.Hero, app, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            // ]
         }
     }
 
