@@ -1,4 +1,4 @@
-namespace Namespace1
+namespace MyNamespace
 {
     public class MyClass
     {

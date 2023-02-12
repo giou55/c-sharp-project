@@ -1,4 +1,4 @@
-﻿using Namespace1; // if we want to use the classes in a namespace
+﻿using MyNamespace; // if we want to use the classes in a namespace
 using static App.Helper; // if we want to use the static members of a class 
 
 namespace Application1
