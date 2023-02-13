@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app\\app.csproj": {}
+    "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app-linq-example\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app\\app.csproj": {
+    "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app-linq-example\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app\\app.csproj",
+        "projectUniqueName": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app-linq-example\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app\\app.csproj",
+        "projectPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app-linq-example\\app.csproj",
         "packagesPath": "C:\\Users\\giour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app\\obj\\",
+        "outputPath": "C:\\Users\\giour\\OneDrive\\Υπολογιστής\\Projects\\c-sharp-project\\app-linq-example\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\giour\\AppData\\Roaming\\NuGet\\NuGet.Config",
